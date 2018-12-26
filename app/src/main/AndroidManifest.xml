@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.ideastars">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".views.Top.TopActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.OverlapSystemBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.Idea.IdeaActivity"
+            android:label="@string/title_activity_idea"
+            android:parentActivityName=".views.Top.TopActivity"
+            android:theme="@style/AppTheme">
+            <meta-mData
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ideastars.views.Top.TopActivity"/>
+        </activity>
+        <activity
+            android:name=".views.SetWord.SetWordActivity"
+            android:label="@string/title_activity_set_idea"
+            android:parentActivityName=".views.Idea.IdeaActivity"
+            android:theme="@style/AppTheme">
+            <meta-mData
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ideastars.views.Word.WordActivity"/>
+        </activity>
+        <activity
+            android:name=".views.Word.WordActivity"
+            android:label="@string/title_activity_word"
+            android:parentActivityName=".views.Idea.IdeaActivity"
+            android:theme="@style/AppTheme">
+            <meta-mData
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ideastars.views.Idea.IdeaActivity"/>
+        </activity>
+        <activity
+            android:name=".views.SetIdea.SetIdeaActivity"
+            android:label="@string/title_activity_create_idea"
+            android:parentActivityName=".views.Top.TopActivity"
+            android:theme="@style/AppTheme">
+            <meta-mData
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ideastars.views.Top.TopActivity"/>
+        </activity>
+        <activity
+            android:name=".views.SetItem.SetItemActivity"
+            android:label="@string/title_activity_create_item"
+            android:parentActivityName=".views.Word.WordActivity"
+            android:theme="@style/AppTheme">
+            <meta-mData
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ideastars.views.Word.WordActivity"/>
+        </activity>
+        <activity
+            android:name=".views.Items.ItemsActivity"
+            android:label="@string/title_activity_items"
+            android:parentActivityName=".views.Word.WordActivity"
+            android:theme="@style/AppTheme">
+            <meta-mData
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ideastars.views.Word.WordActivity"/>
+        </activity>
+        <activity android:name=".views.SetStar.SetStarActivity">
+        </activity>
+        <activity android:name=".views.SortList.SortTopActivity">
+        </activity>
+    </application>
+
+</manifest>

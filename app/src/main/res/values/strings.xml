@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">IdeaStars</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="create_hint">Create New Idea</string>
+    <string name="title_activity_set_idea">Create Idea</string>
+    <string name="title_activity_word">WordActivity</string>
+    <string name="title_activity_idea">IdeaActivity</string>
+    <string name="title_activity_items">ItemsActivity</string>
+    <string name="title_activity_create_idea">Create New Idea</string>
+    <string name="title_activity_edit_idea">Edit Idea</string>
+    <string name="title_activity_create_word">Create New Word</string>
+    <string name="title_activity_edit_word">Edit Word</string>
+    <string name="title_activity_create_item">Create New Item</string>
+    <string name="title_activity_edit_item">Edit Item</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="empty_ideas_message">Ideas is empty</string>
+    <string name="empty_idea_message">Idea cannot be empty</string>
+    <string name="empty_word_message">Word cannot be empty</string>
+    <string name="empty_item_message">Item cannot be empty</string>
+
+    <string name="title_idea">idea</string>
+    <string name="title_word">word</string>
+    <string name="title_item">item</string>
+    <string name="title_star">star</string>
+    <string name="title_ranking">ranking</string>
+
+    <string name="title_memo">memo</string>
+    <string name="title_not_found_memo">not found memo</string>
+
+
+</resources>
